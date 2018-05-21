@@ -1,82 +1,91 @@
+﻿/* 
+   Name:   
+   Class: 
+ */
+
 *{box-sizing: border-box;}
 
-
-
-.container{
-	width:1200px;
-	height:100%;
-	background:white;
-	margin:0 auto;
+/* body and page container */
+body {
+   background-color: floralwhite;
 }
 
-.ping{
-	width:100%;
-	height:100px;
-	border:2px solid black;
-	float:left;
-}
-
-
-
-header{
-	padding:20px;
-	width:100%;
-	border:2px solid black;
-	height:200px;
-	background:#00008B;
-    text-align: center;
-	float:left;
-}
-
-img {
-	width:150px;
-	height:150px;
-	float:left;
-	clear:both;
-	display:inline;
-}
-
-
-.a{
-	color:black;
-    display:inline;
-	display:block;
-	font-size:70px;
-	
-}
-.box{
-	height:130px;
-	width:80%;
-	float:left;
-	display:inline;
-}
-.menu{
-	display:inline;
-	padding:9px;
-	font-size:20px;
-	background:#00008B;
-	width:100%;
-	float:left;
-	height:30px;
+.container {
+   background-color: white;
    
+
 }
 
-.content{
-	width:100%;
-	height:500px;
-	background:white;
-	padding:20px;
-	font-size:25px;
-	text-align: center;
-	border:solid black;
-	clear:both;
+/* headings */
+header{
+	background-color: lightblue;
+	
+
 }
 
-.contact{
-	width:100%;
-	height:auto;
-	background:#3498DB;
-	border:solid black;
+header .title{
+   color: navy;
+   margin-top: 10px;
+   font-size: 40px;
+   
+
+}
+
+header .slogan{
+	color: white;
+	font-size: 25px;
+
+}
+
+header .logo{
+	line-height: 100px;
 	text-align: center;
-	font-size:10px;
+	font-size: 50px;
+	border: 1px solid black;
+	background: white;
+
+}
+
+/* main content */
+article {
+   min-height: 500px;
+   
+
+}
+
+/* sidebar */
+aside {
+   background-color: gray;
+   color: white;
+
+}
+
+/* footer section */
+footer {
+   color: navy;
+   background-color: lightblue;
+
+}
+
+.go-top{
+	height: 50px;
+	width: 50px;
+	font-size: 50px;
+
+}
+
+.floating-panel{
+	width: 300px;
+	height: auto;
+	background: red;
+	color: white;
+	padding: 5px;
+	border: 2px solid black;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+.floating-panel li{
+    margin: 20px 0;
 }
